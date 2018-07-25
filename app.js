@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 //travis added <=
 const express = require('express')
 const querystring = require('querystring');
-const port = 3000
+const port = process.env.PORT || 3000
 const app = express()
 
 // List of all messages
