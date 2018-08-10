@@ -66,7 +66,7 @@ function fetchMessages() {
             if (shouldDing) ding.play();
 
             // poll again after waiting 5 seconds
-            setTimeout(fetchMessages, 5000);
+            setTimeout(fetchMessages, 3000);
         })
 }
 
